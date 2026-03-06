@@ -1,6 +1,6 @@
 from flask import Flask,render_template,request
 import joblib
-model=joblib.load("foodexp.pk1")
+model=joblib.load("foodexp.pkl")
 
 
 app=Flask(__name__)
